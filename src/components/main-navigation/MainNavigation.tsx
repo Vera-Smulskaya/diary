@@ -1,14 +1,19 @@
+import { Link } from "react-router-dom";
+
 export default function MainNavigation() {
     return (
         <ul>
             <li>
-                <a>Home</a>
+                <Link to="/home">Home</Link>
             </li>
             <li>
-                <a>About</a>
+                <Link to="/about">About</Link>
             </li>
             <li>
-                <a>Notes</a>
+                <Link to="/create">Create</Link>
+            </li>
+            <li>
+                <Link to="/notes">Notes</Link>
             </li>
         </ul>
     );

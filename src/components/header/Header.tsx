@@ -1,7 +1,10 @@
+import MainNavigation from "../main-navigation/MainNavigation";
+
 export default function Header() {
     return (
-        <div>
+        <header>
             <h1>My diary</h1>
-        </div>
+            <MainNavigation />
+        </header>
     );
 }
