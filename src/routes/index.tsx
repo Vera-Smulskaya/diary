@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "../pages/home-page/HomePage";
-import AboutPage from "../pages/about-page/AboutPage";
-import NotesPage from "../pages/notes-page/NotesPage";
-import NotePage from "../pages/note-page/NotePage";
-import CreateNotePage from "../pages/create-note-page/CreateNotePage";
+import HomePage from "../pages/home/HomePage";
+import AboutPage from "../pages/about/AboutPage";
+import NotesPage from "../pages/notes/NotesPage";
+import NotePage from "../pages/note/NotePage";
+import CreateNotePage from "../pages/create/CreateNotePage";
 
 export default function MainRoutes() {
     return (

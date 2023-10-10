@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function MainNavigation() {
     return (
-        <ul>
+        <ul className="flex">
             <li>
                 <Link to="/home">Home</Link>
             </li>
